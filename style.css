@@ -1,0 +1,316 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 75px;
+    width: 100%;
+    background-color: rgb(37, 182, 239);
+    /* position: fixed; */
+    
+
+}
+.firstsection .iconarea{
+    margin: 0px 10px;
+    width: 33%;
+    color: white;
+    cursor: pointer;
+
+}
+.firstsection .barimg{
+    padding: 2px 0px;
+}
+
+  
+/* secondarea css */
+.navbararea{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px 10px;
+   padding-bottom: 14px;
+    width: 100%;
+    box-shadow: 5px;
+}
+
+/* .navbararea .navbarlogo{
+    height: 50px;
+} */
+.navbararea .navbarlinks a{
+    width: 50%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 7px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px; 
+}
+.navbararea .navbarlinks a:hover{
+    color:  rgb(37, 182, 239);
+    
+}
+/* third section */
+.backgroundimage{
+    background-image: url(./images/1image.jpg);
+    filter: brightness(1px black);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.backgroundtextarea{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-87%, -50%);
+    color: white; 
+}
+
+/* fourth section */
+.formsection{
+    display: inline-block;
+    position: absolute;
+    top: 560px;
+    left: 200px;
+    display: flex;
+    background-color: white;
+    max-width: 999px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+}
+/* .button1{
+    padding: 9px 17px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(37, 182, 239);
+    border: none;
+    margin-left: 10px;
+} */
+.button1:hover{
+    background-color: transparent;
+    border-color: 1px solid rgb(37, 182, 239);
+    color: rgb(37, 182, 239);
+    
+}
+/* fifth area */
+.choosesection{
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+}
+.choosesection hr{
+    width: 3%;
+    border: 1px solid rgb(37, 182, 239);
+    border-radius: 4px;
+}
+.fiftharea{
+    display: flex;
+    font-size: 10px;
+    padding: 25px;
+}
+.choosesection .fiftharea .fifth1 .h3{
+    font-size: 3px;
+}
+/* sixth section */
+.sixthsectionmain{
+    width: 100%;
+}
+/* seventh section */
+.seventhmain{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.seventhmain hr{
+    width: 3%;
+    border: 1px solid rgb(37, 182, 239);
+    border-radius: 3px;
+}
+.seventhimgdiv .imagesec1 button{
+    background-color: rgb(37, 182, 239);
+    border: none;
+    color: white;
+      padding: 6px 15px;
+      transition:2s;
+      border-radius: 3px;
+}
+.seventhimgdiv .imagesec1 button:hover{
+    background: transparent;
+    border: 3px solid rgb(37, 182, 239);
+    color: rgb(37, 182, 239) ;
+    border-radius: 4px;
+    transition:2s;
+}
+
+.imagesec1{
+    /* position: relative; */
+}
+.centered{
+    /* position: absolute;
+    text-align: center;
+    top: 49%;
+  left: 5%;
+  color: white;
+  transform: translate(-50%, -50%); */
+}
+/* eight section */
+.eightsectionmain{
+    width: 100%;
+    text-align: center;
+    /* height: 50px; */
+    margin-top: 30px;
+    /* justify-content: center; */
+
+}
+.eightsectionmain hr{
+    width: 3%;
+    border-radius: 3px;
+    border: 1px solid rgb(37, 182, 239);
+}
+.eightimgsection{
+    background-image: url(./images/gilgit-baltistan.jpg);   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1302px;
+    height: 600px;
+    margin-top: 30px;
+}
+.eightimgsection .eightimg1{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* width: 40; */
+  margin-top: 100px;
+  margin-bottom: 117px;
+}
+.eightimgsection .eightimg1:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+}
+.price-tag{
+    position: absolute;
+     top: 4px;   
+    left: -6px; 
+    background-color: #ff0000; /* Adjust background color */
+    color: #ffffff; /* Adjust text color */
+    /* padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px; */
+}
+.eightimg1 .china{
+    /* padding: 2px 16px; */
+    height: 120px;
+    text-align: start;
+
+}
+.eightimgsection .eightimg2{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* width: 40; */
+  margin-top: 100px;
+  margin-bottom: 120px;
+
+}
+.eightimgsection .eightimg2:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+}
+.eightimgsection .eightimg3{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* width: 40; */
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.eightimgsection .eightimg3:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+}
+.eightimg2 .dataofimg1{
+    height: 129px;
+    text-align: start;
+}
+.eightimg3 .dataofimg2{
+    height: 129px;
+    text-align: start;
+}
+/* <!-- nineth section --> */
+
+.our-gallery{
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+  
+}
+.our-gallery hr{
+    width: 3%;
+    border-radius: 3px;
+    border: 1px solid rgb(37, 182, 239);
+    margin-bottom: 40px;
+}
+.our-gallery .galleryone{
+    display: flex;
+
+}
+
+.galleryone .gallery:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.galleryone .arrowicon:hover{
+    
+
+}
+.our-gallery .gallerytwo{
+    display: flex;
+}
+
+.gallerytwo img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* eleventhsection */
+.eleventhimagesection{
+    background-image: url(./images/black\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 455px;
+    /* position: absolute; */
+    margin-top: 40px;
+}
+.eleventhheading{
+    position: relative;
+    /* margin-top: 40px; */
+    top: 30px;
+    left: 570px;
+    display: inline-block;
+}
+.eleventhheading h4{
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+.eleventhheading hr{
+    /* width: 25%; */
+    color: rgb(249, 249, 249);
+}
+
+
+/* secondlastsection */
+
+.secondlastsection button{
+color: rgb(152, 150, 150);
+}
+/* FOOTERSECTION */
+.footersec4 a{
+    color: gray;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
